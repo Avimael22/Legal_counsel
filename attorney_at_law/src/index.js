@@ -41,6 +41,17 @@ headingThumbnail.render(
   </React.StrictMode>
 )
 
+const coloredIcons = ReactDOM.createRoot(document.getElementById("colored-icons"));
+coloredIcons.render(
+  <React.StrictMode>
+    <ThumbnailWithHeading headingContent={"First Class Software"} paragraphContent={"set real-time insights, seamless transactions, and advanced tools to manage your wealth effortlessly"} className={"no-background content-thumbnail"}/>
+    <Thumbnail className={"icon-background content-thumbnail"} icon={"fa-solid fa-wallet"} content={"Safe Storage"} />
+    <Thumbnail className={"icon-background content-thumbnail"} icon={"fa-solid fa-fingerprint"} content={"Secure"}/>
+    <Thumbnail className={"icon-background content-thumbnail"} icon={"fa-solid fa-comment-dollar"} content={"Earn Interest"} />
+    <Thumbnail className={"icon-background content-thumbnail"} icon={"fa solid fa-people-group"} content={"Family Plans"} />
+  </React.StrictMode>
+)
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

@@ -86,3 +86,11 @@
 .blue-background p {
     font-size: 0.9rem;
 }
+.icon-background i{
+    font-size: 5.2rem;
+    width: 40vw;
+    color: #fff;
+    background-color: var(--color-highlight);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
