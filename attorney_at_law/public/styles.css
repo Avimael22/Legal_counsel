@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-primary: #4EA3BA;
+    --color-secondary: #97CADB;
+}
+header{
+    background-color: var(--color-primary);
+    padding: 15px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.get-started-button-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.money-icon{
+    color: #fff;
+}
+.get-started-button{
+    background-color: var(--color-secondary);
+    padding: 5px;
+}
+.hero-title-container{
+    font-family: Barlow;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero-title-container span {
+    color: cyan;
+    font-family: "Libre Franklin"
+}
+
+#thumbnail-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.offering{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+.hook{
+    color: #fff;
+}
+.paragraph-links{
+    width: 90%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Ubuntu";
+    color: #fff;
+}
+main{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-family: "Libre Franklin";
+}
+.online-banking-image{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28vh;
+    border-radius: 20px;
+}
+#small-thumbnail-container{
+    display : grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    gap: 15px;
+    padding: 15px;
+}
+#heading-thumbnail-container{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
