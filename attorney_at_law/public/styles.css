@@ -5,6 +5,7 @@
 :root{
     --color-primary: #4EA3BA;
     --color-secondary: #97CADB;
+    --footer-color: #7DA0CA;
 }
 header{
     background-color: var(--color-primary);
@@ -28,7 +29,7 @@ header{
 .get-started-button{
     background-color: cyan;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 .hero-title-container{
     font-family: Barlow;
@@ -135,4 +136,63 @@ h2{
     border-radius: 20px;
     margin-top: 20vh;
     margin-bottom: 20vh;
+}
+#background-container{
+    background-image: url("https://images.pexels.com/photos/6609232/pexels-photo-6609232.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 90%;
+    height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-bottom: 10vh;
+}
+#background-container h2{
+    color: #fff;
+    font-size:2.3rem;
+}
+#background-container button{
+    width: 35vw;
+    height: 30px;
+    padding: 10px;
+    background-color: var(--color-secondary);
+}
+footer{
+    height: 35vh;
+    background-color: var(--footer-color);
+    padding: 20px;
+
+}
+#footer-thumbnail-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-thumbnail{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+.footer-thumbnail i{
+    font-size: 2.4rem;
+}
+.footer-thumbnail p{
+    width: 60%;
+}
+.footer-content{
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

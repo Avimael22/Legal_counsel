@@ -52,6 +52,14 @@ coloredIcons.render(
   </React.StrictMode>
 )
 
+const footerThumbnail = ReactDOM.createRoot(document.getElementById("footer-thumbnail-container"));
+footerThumbnail.render(
+  <React.StrictMode>
+    <Thumbnail icon={"fa-solid fa-money-bill-transfer"} className={"footer-thumbnail"} content={<div class="footer-content"><p>contact</p><p>hello@etran.com</p><p>Instagram</p><p>X</p><p>LinkedIn</p></div>}/>
+    <ThumbnailWithHeading className={"footer-thumbnail"} headingContent={"Etran"} paragraphContent={<div class="footer-content"><span>Terms and Conditions</span><span>Privacy</span></div>}/>
+  </React.StrictMode>
+)
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
