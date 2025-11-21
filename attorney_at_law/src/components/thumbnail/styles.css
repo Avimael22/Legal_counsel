@@ -15,7 +15,8 @@
     flex-direction: column;
     justify-content: space-around;
     height: 120px;
-    width: 90px;
+    width: 100%;
+    max-width: 300px;
     min-width: 86px;
     padding: 0;
     border: 1px solid black;
@@ -61,12 +62,19 @@
 .content-thumbnail{
     padding: 15px;
     display: flex;
+    width: 100%;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    height: 25vh;
+    height: 100%;
+    max-height: 300px;
+    min-height: 200px;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 .no-background h1{
     font-size: 2rem;
