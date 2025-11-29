@@ -32,11 +32,11 @@ smallThumbnailRoot.render(
 const headingThumbnail = ReactDOM.createRoot(document.getElementById("heading-thumbnail-container"));
 headingThumbnail.render(
   <React.StrictMode>
-    <ThumbnailWithHeading headingContent={"Get More Done In A Week"} className={"no-background content-thumbnail"} paragraphContent={"Design your productiity with smarter tools designed to streamline your workflow to automate tasks, stay organized."} />
-    <ThumbnailWithHeading headingContent={"2X"} className={"blue-background content-thumbnail"} paragraphContent={"Double Productivity"} />
-    <Thumbnail className={"blue-background content-thumbnail"} icon={"fa-solid fa-chart-line"} content={"Efficiency Increase Per Transfer"} />
-    <Thumbnail className={"blue-background content-thumbnail"} icon={"fa-solid fa-arrow-right-arrow-left"} content={"Centralize Your Fincnaces"} />
-    <ThumbnailWithHeading headingContent={"130%"} className={"blue-background content-thumbnail"} paragraphContent={"More Activity"} />
+    <ThumbnailWithHeading headingContent={"Get More Done In A Week"} className={"no-background content-thumbnail heading-thumbnail-with-content"} paragraphContent={"Design your productiity with smarter tools designed to streamline your workflow to automate tasks, stay organized."} />
+    <ThumbnailWithHeading headingContent={"2X"} className={"blue-background content-thumbnail heading-thumbnail-with-content"} paragraphContent={"Double Productivity"} />
+    <Thumbnail className={"blue-background content-thumbnail heading-thumbnail-with-content"} icon={"fa-solid fa-chart-line"} content={"Efficiency Increase Per Transfer"} />
+    <Thumbnail className={"blue-background content-thumbnail heading-thumbnail-with-content"} icon={"fa-solid fa-arrow-right-arrow-left"} content={"Centralize Your Fincnaces"} />
+    <ThumbnailWithHeading headingContent={"130%"} className={"blue-background content-thumbnail heading-thumbnail-with-content"} paragraphContent={"More Activity"} />
 
   </React.StrictMode>
 )
