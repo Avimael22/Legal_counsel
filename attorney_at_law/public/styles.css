@@ -7,9 +7,10 @@ html{
     padding: 0;
 }
 :root{
-    --color-primary: #4EA3BA;
-    --color-secondary: #97CADB;
-    --footer-color: #7DA0CA;
+    --color-primary: #1B0C1A;
+    --color-secondary: #4B2138;
+    --footer-color: #765D67;
+    --white-font: #FADCD5;
 }
 
 header{
@@ -19,6 +20,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 35px;
+    color: var(--white-font);
 }
 .get-started-button-container{
     display: flex;
@@ -176,10 +178,12 @@ h2{
     font-size:2.3rem;
 }
 #background-container button{
-    width: 35vw;
+    width: 100%;
+    max-width: 150px;
     height: 30px;
     padding: 10px;
     background-color: var(--color-secondary);
+    color: var(--white-font);
 }
 footer{
     height: 35vh;

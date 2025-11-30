@@ -5,9 +5,10 @@
 }
 
 :root {
-    --color-primary: #4EA3BA;
-    --color-secondary: #97CADB;
+    --color-primary: #1B0C1A;
+    --color-secondary: #4B2138;
     --color-highlight: #023859;
+    --white-font: #FADCD5;
 }
 
 .thumbnail-container{
@@ -75,10 +76,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    color: var(--white-font);
 }
 .no-background{
     width: 100%;
     max-width: 500px;
+    color: var(--primary-color);
 }
 .no-background h1{
     font-size: 2rem;
@@ -102,10 +105,13 @@
     font-size: 5.2rem;
     width: 100%;
     max-width: 40vw;
-    color: #fff;
-    background-color: var(--color-highlight);
+    color: var(--white-font);
+    background-color: var(--color-primary);
     padding: 15px 20px;
     border-radius: 15px;
+}
+.icon-background p{
+    color: var(--color-primary);
 }
 @media only screen and (min-width: 800px){
 .small-thumbnail-container:nth-child(5){
